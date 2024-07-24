@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+#logo{
+    
+}
+
+figure img{
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    color: rgb(25, 25, 59);
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+.home div{
+    padding-top: 140px;
+
+}
+
+.home img{
+    margin-left: 20px;
+    width: 450px;
+    margin-top: 20px;
+
+}
+
+.home h2{
+    font-size: 40px;
+    font-weight: 750;
+
+}
+
+.home input{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+section{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+
+/* for using in mobile */
+
+@media(max-width: 420px) {
+    figure{
+        margin-top: -15px;
+
+    }   
+    figure img{
+        width: 100px;
+
+    } 
+    .home{
+        margin-right: 10px;
+    }
+    .home div{
+        padding: 70px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 10px;
+
+    }
+    .home h2{
+        font-size: 10px;
+    }
+
+
+
+}
