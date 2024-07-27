@@ -20,14 +20,18 @@ nav{
     display: flex;
     justify-content: space-evenly;
     position: sticky;
-    top: 0;
     margin-top: 20px;
+    background-color: #989393;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
 }
 
 nav a{
-    color: rgb(25, 25, 59);
+    color: rgb(33, 33, 127);
     text-decoration: none;
     font-size: 20px;
+    position: sticky;
 }
 .home{
     display: flex;
@@ -68,6 +72,64 @@ section{
     padding-top: 30px;
 
 }
+
+/* best sellers */
+.best_selling{
+    padding-top: 20px;
+}
+.best_selling h3{
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.group_cards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.books{
+    height: 350px;
+    border: 2px solid black;
+    background-color: #e5edf3;
+    border-radius: 5px;
+    padding-bottom: 10px;
+
+}
+.books img{
+    width: 300px;
+    height: 350px;
+    border-radius: 5px;
+    filter: opacity(0.9);
+
+}
+
+.group_cards h6{
+    position: relative;
+    top: -120px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.books button{
+    background: #2829299e;
+    color: rgb(255, 255, 255);
+    width: 10vw;
+    height: 7vh;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -120px;
+    border: navajowhite;
+    
+}
+
+
 
 
 /* for using in mobile */
